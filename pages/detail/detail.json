@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "傻屌源松在线尬舞",
+  "usingComponents":{
+      "MyTitle": "../../components/MyTitle/MyTitle"
+  }
+}

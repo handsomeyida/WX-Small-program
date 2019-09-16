@@ -1,0 +1,28 @@
+/**index.wxss**/
+page{
+    color: #666;
+    padding: 5rpx;
+}
+
+/* 轮播图 */
+.sliper{
+    margin-top: 10rpx;
+}
+.sliper swiper{
+    height: 220rpx;
+}
+.sliper navigator{
+    width: 100%;
+    height: 100%;
+}
+.sliper image{
+    width: 100%;
+    height: 100%;
+}
+
+/* 帖子列表 */
+.other_list{
+    margin-top: 10rpx;
+    height: 800rpx;
+}
+

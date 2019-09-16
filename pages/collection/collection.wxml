@@ -1,0 +1,32 @@
+<!--pages/collection/collection.wxml-->
+<view class="collection_warp">
+        <navigator url="../post/post?id={{item.POST_ID}}" class="collection_item" wx:for="{{othersList}}" wx:key="{{index}}">
+            <!-- 图片容器 -->
+            <view class="image">
+                <view class="other_img_warp">
+                    <image mode="widthFix" src="../../icons/nolisten.png"></image>
+                </view>    
+                <view class="view_info">
+                    <!-- 帖子内容 -->
+                    <view class="title">{{item.CONTENT}}</view>
+                    <!-- 发帖人 -->
+                    <view class="other_info">
+                        <view class="sendname">
+                            <!-- 标题 -->
+                            <text class="sendname">发帖人:</text>
+                            <text class="sendname">{{item.WX_NICK_NAME}}</text>
+                        </view>
+                        <!-- 价格区间 -->
+                        <view class="money">
+                            <text class="money">价格:</text>
+                            <!-- 数值 -->
+                            <text class="money">￥{{item.MIN_PRICE}}</text>
+                            <text>-</text>
+                            <text class="money">￥{{item.MAX_PRICE}}</text>
+                            <button type="warn" catchtap="deleteCollection" data-index="{{item.ID}}">取消收藏</button>
+                        </view>
+                    </view>
+                </view>
+            </view>      
+        </navigator>
+    </view>

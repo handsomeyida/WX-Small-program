@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="main">
+    <view>这里是主页</view>
+    <!-- 轮播图结构 -->
+    <view class="sliper">
+       <!-- <swiper autoplay indicator-dots circular interval="2000">
+            <swiper-item wx:for="{{swiperList}}" wx:key="{{index}}">
+                <navigator>
+                    <image mode="widthFix" src="{{item.imgSrc}}"></image>
+                </navigator>
+            </swiper-item>
+        </swiper> -->
+    </view>
+</view>

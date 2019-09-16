@@ -1,0 +1,70 @@
+page{
+    color: #666;
+    padding: 5rpx;
+}
+.collection_warp{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rpx;
+    justify-content: space-between;
+}
+.collection_item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20rpx;
+}
+
+.image{
+    margin-top: 10rpx;
+}
+
+.other_img_warp{
+    width: 30%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.other_img_warp image{
+    margin-left: 17rpx;
+    width: 76%;
+    border-radius: 15rpx;
+}
+
+.view_info{
+    width: 70%;
+    float: right;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title{
+    font-size: 35rpx;
+    display: -webkit-box;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.sendname{
+    margin-top: 10rpx;
+    font-size: 30rpx;
+    color: #666;
+}
+
+.money text{
+    float: left;
+    margin-top: 10rpx;
+    font-size: 30rpx;
+    color: red;
+}
+
+.money button{
+    float: right;
+    font-size: 20rpx;
+    width: 40%;
+    height: 40%;
+}
